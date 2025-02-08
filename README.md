@@ -89,15 +89,36 @@ The node and color features are concatenated to form comprehensive (node, color)
 
 ## Architecture 
 
+<p align="center">
 <img src="https://github.com/user-attachments/assets/a12863f6-777d-4e5f-95bf-a475abf3d298" width="900">
-
+</p>
 
 
 <br><br>
 
 ## Results 
 
-(Update soon..)
+<br>
+
+### Comparison of Chromatic Numbers produced by our model, RLTB, GNN, and two other heuristic algorithms on easy instances of DIMACS graphs
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/c6b0a74b-9e49-45ac-a096-5fa35016e347" width="700">
+</p>
+
+RLTB, consistently outperformed existing heuristic algorithms such
+as Tabucol and a greedy algorithm, as well as GNN methods on the easier DIMACS graph instances. RLTB was
+able to determine the chromatic number for all easy DIMACS graphs, except the queen11\_11 graph.
+
+<br><br>
+
+<h3 align="center">Accuracy of RLTB</h3>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/af733054-380f-42a3-96c8-05639d2636f5" width="600">
+</p>
+
+Overall, RLTB has demonstrated strong and consistent performance, particularly on smaller and mediumsized graphs. However, as the order and size of the graphs increase, the accuracy of RLTB tends to decrease
 
 <br><br>
 
